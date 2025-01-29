@@ -81,7 +81,7 @@ const Player = () => {
         </div>
       </div>
 
-      <div className="hodden lg:flex items-center gap-2 opacity-75">
+      <div className="hidden lg:flex items-center gap-2 opacity-75">
         <img src={assets.play_icon} alt="" className="w-4" />
         <img src={assets.mic_icon} alt="" className="w-4" />
         <img src={assets.queue_icon} alt="" className="w-4" />
