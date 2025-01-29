@@ -7,7 +7,7 @@ import { PlayerContext } from "./context/PlayerContext";
 const App = () => {
   const { audioRef, track } = useContext(PlayerContext);
   return (
-    <div className="h-[100%] bg-black">
+    <div className="md:h-screen h-[100%] bg-black">
       <div className="h-[90%] flex">
         <Sidebar />
         <Display />
